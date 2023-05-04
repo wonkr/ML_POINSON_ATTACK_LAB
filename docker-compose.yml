@@ -47,7 +47,6 @@ services:
 
 networks:
     net-10.9.0.0:
-        name: net-10.9.0.0
         ipam:
             config:
                 - subnet: 10.9.0.0/24
