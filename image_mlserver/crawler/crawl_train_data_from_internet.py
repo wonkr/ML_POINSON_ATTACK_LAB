@@ -4,6 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import hashlib
 import time
+import os
+
 visited_img_links = []
 def crawl():
     url = 'http://www.seed-server.com/file'
@@ -33,6 +35,10 @@ def crawl():
                 handler.write(img_data)
             img_class_dict['train_data/{}.png'.format(img_name)] = title
     return img_class_dict
+
+#save the graph for cold start
+if not os.path.exists('./train_data/'):
+    os.makedirs('./train_data/')
 
 while True:
     time.sleep(10)
