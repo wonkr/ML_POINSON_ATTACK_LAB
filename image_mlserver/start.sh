@@ -1,6 +1,6 @@
 #!/bin/bash
-
-cd simple_ml_server && ./run.sh&
+cd /simple_ml_server/server/poison_attack && ./make_graph_cold.py
+cd /simple_ml_server && ./run.sh&
 cd /crawler && ./crawl_train_data_from_internet.py&
 cd /
 
