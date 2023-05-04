@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+    <title>ML POISONING LAB</title>
+  </head>
+  <body>
+   <form id="file_form" method="post" enctype="multipart/form-data">
+   <input type="file" name="file" onchange="setThumbnail(event);"/>
+   <button onclick="file_upload()" type = "button">submit</button>
+   </form>
+
+   <img id="image_preview"/>
+   <br/>
+   <a id="result_text">Result : </a>
+   <script>
+   function setThumbnail(event) {
+      var reader = new FileReader();
+
+      reader.onload = function(event) {
+         var img = document.getElementById("image_preview");
+         img.setAttribute("src", event.target.result);
+         var result_text = document.getElementById("result_text");
+         result_text.text = "Result : ";
+      };
+
+      reader.readAsDataURL(event.target.files[0]);
+   }
+   function file_upload(){
+      var form_data = new FormData($('#file_form')[0]);
+         $.ajax({
+         type: 'POST',
+         url: '/uploader',
+         data: form_data,
+         contentType: false, 
+         processData: false, 
+         success: (res) => {
+            console.log(res);
+            var result_text = document.getElementById("result_text");
+            result_text.text = "Result : " + res;
+         }
+      });
+   }
+   </script>
+  </body>
+</html>
