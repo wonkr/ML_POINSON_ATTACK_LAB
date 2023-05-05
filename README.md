@@ -133,6 +133,11 @@ parallels:~/ML_POINSON_ATTACK_LAB/poisonImg$ ls
 $ sudo chown $USER 2.83605.png 
 ```
 
+### Poisoned Image example.
+- The image shown as a cat image but it contains dog's feature.
+<img width="461" alt="image" src="https://user-images.githubusercontent.com/19922651/236377873-63e273f2-eeee-45a1-8c2c-2419c2ff266e.png">
+
+
 ## Access to elgg web server
 - Add hostname in /etc/hosts
 ```bash
