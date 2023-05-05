@@ -178,6 +178,8 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/19922651/236390928-37df1f5c-21c7-4f36-83d9-dfad7a32259d.png">
 
 - target image : dog
+
+
 - duration of time when generating poisoned images : ~2hours
 	- depends on which base_image being used.
 ```
@@ -192,6 +194,10 @@ https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sh
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/19922651/236390818-4306bb7d-e446-46d4-bc2b-96e4406b2c1e.png">
 
 - target image : mouse
+
+target sample
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/19922651/236391053-d7f59074-613f-4c92-93aa-421228a87f33.png">
+
 - duration of time : 
 ```
 ```
