@@ -4,7 +4,7 @@
 
 ### (Option 1) Download pre-processed data ( `target` and `base` )
 - dog and fish : https://drive.google.com/file/d/1VUPwV-w-gN9YCOeNjPHvdGUsX9YF-7d-/view?usp=sharing
-- cat and mouse : https://drive.google.com/file/d/1k4Vn7RIasNT_qcpXGH18om-1iNG_oysa/view?usp=sharing
+- mouse and cat : https://drive.google.com/file/d/1k4Vn7RIasNT_qcpXGH18om-1iNG_oysa/view?usp=sharing
 - dog and cat : https://drive.google.com/file/d/1raqv8F9-4IitiwL169t6z3aw0FwUBSkT/view?usp=share_link
 
 Untar pre-processed data
@@ -55,7 +55,7 @@ Enable one of them
 ```python
 #class_identifier = "dog_and_fish"
 class_identifier = "dog_and_cat"
-#class_identifier = "cat_and_mouse"
+#class_identifier = "mouse_and_cat"
 ```
 
 2)
@@ -64,11 +64,11 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/image_mlserver/simple_m
 ```python
 class_dog_fish = {"dog":0., "fish":1.}
 class_dog_cat = {"dog":0., "cat":1.}
-class_cat_mouse = {"cat":0., "mouse":1.}
+class_mouse_cat = {"mouse":0., "cat":1.}
 
 app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_dog_cat[params['class']])
 # app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_dog_fish[params['class']])
-# app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_cat_mouse[params['class']])
+# app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_mouse_cat[params['class']])
 ```
 
 ## How to run Docker Containers
@@ -183,9 +183,9 @@ out of 100 targets, 100 got misclassified!
 ```
 https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sharing
 
-## 2) cat and mouse
-- base image : mouse
-- target image : dog
+## 2) mouse and cat
+- base image : cat
+- target image : mouse
 - duration of time : 
 ```
 ```
