@@ -190,6 +190,8 @@ https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sh
 
 <details>
 <summary>result details</summary>
+	
+	
 done loading data!
 (100,)
 ******************0********************
