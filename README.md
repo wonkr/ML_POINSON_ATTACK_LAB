@@ -1,6 +1,7 @@
-# Contents
-[1.ML_POISON_ATTACK_LAB](#ml_attack_lab)
-[2.Evaluation](#evaluation-on-different-image-other-than-(dog_and_fish))
+# CIS700 2023 - FINAL PROJECT 
+## Contents
+1. [ML_POISON_ATTACK_LAB](#ml_attack_lab)
+2. [Evaluation](#evaluation-on-different-image-other-than-(dog_and_fish))
 
 # ML_POISON_ATTACK_LAB
 
