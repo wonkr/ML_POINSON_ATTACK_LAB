@@ -34,3 +34,27 @@ $ cd image_mlserver/simple_ml_server/server/poison_attack/Test_Data/rawImages/fi
 $ tar -xvf fish.tar
 ```
 
+## Specify what image classes to use.
+
+### image_mlserver/simple_ml_server/server/general.py
+1) 
+https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/image_mlserver/simple_ml_server/server/general.py#L32-L34
+Enable one of them
+```python
+#class_identifier = "dog_and_fish"
+class_identifier = "dog_and_cat"
+#class_identifier = "cat_and_mouse"
+```
+
+2)
+https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/image_mlserver/simple_ml_server/server/general.py#L55-L59
+
+```python
+class_dog_fish = {"dog":0., "fish":1.}
+class_dog_cat = {"dog":0., "cat":1.}
+class_cat_mouse = {"cat":0., "mouse":1.}
+
+app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_dog_cat[params['class']])
+# app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_dog_fish[params['class']])
+# app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_cat_mouse[params['class']])
+```
