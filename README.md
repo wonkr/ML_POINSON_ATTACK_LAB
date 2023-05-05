@@ -158,6 +158,7 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 
 # Reference
 https://github.com/ashafahi/inceptionv3-transferLearn-poison
+```latex
 @ARTICLE{2018arXiv180400792S,
    author = {{Shafahi}, A. and {Ronny Huang}, W. and {Najibi}, M. and {Suciu}, O. and 
 	{Studer}, C. and {Dumitras}, T. and {Goldstein}, T.},
@@ -172,5 +173,6 @@ archivePrefix = "arXiv",
    adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180400792S},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+```
 
 
