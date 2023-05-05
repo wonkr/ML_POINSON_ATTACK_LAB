@@ -176,6 +176,24 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 - machine learning model : inceptionv3 (2015)
 - the number of poisoned image generated : 100
 
+## summary
+```
+/bin/python3 /home/parallels/ML_POINSON_ATTACK_LAB/parse_eval_result.py
+
+======= dog_and_cat_eval =======
+# Final test accuracy
+before poisoned :  97.0
+after poisoned :  96.28999999999988
+avg poison classified accuracy :  0.9768275262000004
+avg target misclassified accuracy :  0.9732625192849003
+======= mouse_and_cat_eval =======
+# Final test accuracy
+before poisoned :  99.0
+after poisoned :  98.21
+avg poison classified accuracy :  0.9867806270000002
+avg target misclassified accuracy :  0.9634084135
+```
+
 
 ## 1) dog and cat
 - base image : cat
@@ -212,13 +230,21 @@ target sample
 out of 100 poisons, 100 got correctly classified!
 out of 100 targets, 100 got misclassified!
 ```
+- colab link
 https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sharing
 
 	
 - detailed result
 https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 
+## 3) dog and mouse
+- base image : mouse
+<img width="489" alt="image" src="https://user-images.githubusercontent.com/19922651/236456244-bfb5f441-f655-4611-9093-945e308fd832.png">
 
+- target image : dog
+
+- colab link
+https://colab.research.google.com/drive/1tQLNCcVdFs1laOTigg-gW2NzsBWiLm8z?usp=sharing
 
 
 # Reference
