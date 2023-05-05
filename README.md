@@ -174,6 +174,9 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 
 ## 1) dog and cat
 - base image : cat
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/19922651/236390928-37df1f5c-21c7-4f36-83d9-dfad7a32259d.png">
+
 - target image : dog
 - duration of time when generating poisoned images : ~2hours
 	- depends on which base_image being used.
@@ -185,6 +188,9 @@ https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sh
 
 ## 2) mouse and cat
 - base image : cat
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/19922651/236390818-4306bb7d-e446-46d4-bc2b-96e4406b2c1e.png">
+
 - target image : mouse
 - duration of time : 
 ```
