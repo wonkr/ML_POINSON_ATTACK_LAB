@@ -14,7 +14,7 @@ def upload_file():
         # "target_and_base"
         # "dog_and_fish"
         # "dog_and_cat"
-        # "cat_and_mouse"
+        # "mouse_and_cat"
         class_A_B = {
             "dog_and_fish": {
                 "A": "dog",
@@ -24,14 +24,14 @@ def upload_file():
                 "A": "dog", 
                 "B": "cat"
             },
-            "cat_and_mouse": {
-                "A": "cat", 
-                "B": "mouse"
+            "mouse_and_cat": {
+                "A": "mouse", 
+                "B": "cat"
             }
         }
         #class_identifier = "dog_and_fish"
         class_identifier = "dog_and_cat"
-        #class_identifier = "cat_and_mouse"
+        #class_identifier = "mouse_and_cat"
         classA = class_A_B[class_identifier]['A']
         classB = class_A_B[class_identifier]['B']
         is_A = test(sess = app.sess, targetInpImage = nump,expectedClass=classA, class_identifier = class_identifier)[0]
@@ -54,7 +54,7 @@ def add_train_data():
         
         class_dog_fish = {"dog":0., "fish":1.}
         class_dog_cat = {"dog":0., "cat":1.}
-        class_cat_mouse = {"cat":0., "mouse":1.}
+        class_mouse_cat = {"mouse":0., "cat":1.}
         
         app.X_tr, app.Y_tr = append_train_data(app.sess, X_tr=app.X_tr, Y_tr=app.Y_tr, newInpImage=newInpImage, newInpClass=class_dog_cat[params['class']])
         
