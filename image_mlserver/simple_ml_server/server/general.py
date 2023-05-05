@@ -29,7 +29,9 @@ def upload_file():
                 "B": "mouse"
             }
         }
+        #class_identifier = "dog_and_fish"
         class_identifier = "dog_and_cat"
+        #class_identifier = "cat_and_mouse"
         classA = class_A_B[class_identifier]['A']
         classB = class_A_B[class_identifier]['B']
         is_A = test(sess = app.sess, targetInpImage = nump,expectedClass=classA, class_identifier = class_identifier)[0]
