@@ -17,7 +17,7 @@ if not os.path.exists(directoryForPoisons):
 diff = 100
 maxTriesForOptimizing = 10
 counter = 0
-targetImg = np.squeeze(np.array(imageio.imread("./Test_Data/targetImage/test.png")))
+targetImg = np.squeeze(np.array(imageio.imread("./Test_Data/targetImage/target_image.jpeg")))
 usedClosest = False
 while (diff > threshold) and (counter < maxTriesForOptimizing):		#if target is fish, the poison base should be a dog
 	baseImg = np.squeeze(np.array(imageio.imread("./Test_Data/baseImage/base_image.jpeg")))

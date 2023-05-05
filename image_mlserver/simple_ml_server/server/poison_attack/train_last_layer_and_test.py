@@ -21,7 +21,7 @@ Y_test = np.load(directorySaving+all_datas[5]+'.npy')
 
 print('done loading data!')
 
-theTarget = np.array(imageio.imread("./Test_Data/targetImage/test.png"))
+theTarget = np.array(imageio.imread("./Test_Data/targetImage/target_image.jpeg"))
 thePoison = np.array(imageio.imread("./poisonImg/2.73650.png"))
 theFishTest = np.array(imageio.imread("./Test_Data/rawImages/fish/n02512053_33.JPEG"))
 theDogTest = np.array(imageio.imread("./Test_Data/rawImages/main_dog/n02084071_18.JPEG"))
