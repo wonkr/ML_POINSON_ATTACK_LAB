@@ -237,8 +237,6 @@ out of 100 targets, 100 got misclassified!
 ```
 - colab link
 https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sharing
-
-	
 - detailed result
 https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 
@@ -250,6 +248,8 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 - total elapsed time on creating 100 poisoned images  : ~5h
 - colab link
 https://colab.research.google.com/drive/1tQLNCcVdFs1laOTigg-gW2NzsBWiLm8z?usp=sharing
+- detailed result 
+https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/dog_and_mouse_eval
 
 
 # Reference
