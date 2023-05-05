@@ -201,9 +201,7 @@ avg target misclassified accuracy :  0.9634084135
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/19922651/236390928-37df1f5c-21c7-4f36-83d9-dfad7a32259d.png">
 
 - target image : dog
-
-
-- duration of time when generating poisoned images : ~2hours
+- total elapsed time on creating 100 poisoned images  : ~2h
 	- depends on which base_image being used.
 ```
 out of 100 poisons, 100 got correctly classified!
@@ -225,7 +223,7 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/dog_and_cat_eval
 target sample
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/19922651/236391053-d7f59074-613f-4c92-93aa-421228a87f33.png">
 
-- duration of time  : ~6h
+- total elapsed time on creating 100 poisoned images  : ~6h
 ```
 out of 100 poisons, 100 got correctly classified!
 out of 100 targets, 100 got misclassified!
@@ -242,7 +240,7 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 <img width="489" alt="image" src="https://user-images.githubusercontent.com/19922651/236456244-bfb5f441-f655-4611-9093-945e308fd832.png">
 
 - target image : dog
-
+- total elapsed time on creating 100 poisoned images  : ~5h
 - colab link
 https://colab.research.google.com/drive/1tQLNCcVdFs1laOTigg-gW2NzsBWiLm8z?usp=sharing
 
