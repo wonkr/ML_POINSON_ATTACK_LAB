@@ -190,8 +190,8 @@ https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sh
 
 <details>
 <summary>result details</summary>
-	
-	
+<div markdown="1">
+
 done loading data!
 (100,)
 ******************0********************
@@ -1099,6 +1099,7 @@ out of 100 poisons, 100 got correctly classified!
 out of 100 targets, 100 got misclassified!
 <!-- summary 아래 한칸 공백 두어야함 -->
 
+</div>
 </details>
 
 ## 2) mouse and cat
