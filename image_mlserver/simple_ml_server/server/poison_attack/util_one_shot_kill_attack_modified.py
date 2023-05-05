@@ -34,9 +34,13 @@ def load_images_from_directory(Specie, directory):
         all of the images in the directory dumped into a numpy array
     """
     res = []
-    for file in listdir(directory):
+    
+    for i, file in enumerate(listdir(directory)):
         thisOne = imageio.imread(directory+file)
         res.append(thisOne)
+        if i >= 500:
+            break
+    
     res = np.array(res)
     print('Done loading %d %s\'s !'%(len(res),Specie))
     return res
@@ -189,7 +193,7 @@ def id_duplicates_of_training_from_test(X_test,X_training, threshold = 3.5):
     return list_ind
 
 
-def load_bottleNeckTensor_data(directory=None, saveEm=False, random_state=123, train_size=900):
+def load_bottleNeckTensor_data(directory=None, saveEm=False, random_state=123, train_size=400):
     """
     Returns the train-test splits of images and their feature representations.
     Parameters
@@ -484,7 +488,7 @@ def append_train_data(sess, X_tr, Y_tr, newInpImage, newInpClass):
     Y_tr = np.append(Y_tr,newInpClass)
     return X_tr, Y_tr
 
-def test(sess, targetInpImage, expectedClass):
+def test(sess, targetInpImage, expectedClass, class_identifier="dog_and_fish"):
     Ylogits = sess.graph.get_tensor_by_name('logits:0')
     Y_true = sess.graph.get_tensor_by_name('Y_true:0')
     X_Bottleneck = sess.graph.get_tensor_by_name('X_bottleneck:0')
@@ -495,8 +499,13 @@ def test(sess, targetInpImage, expectedClass):
     input_tensor = sess.graph.get_tensor_by_name('DecodeJpeg:0')#'Cast:0')
     targetFeatRep = np.expand_dims(np.squeeze(sess.run(feat_tensor, feed_dict={input_tensor: targetInpImage})), axis=0)
     
-    class_dog_fish = {"dog":np.array([[1., 0.]]), "fish":np.array([[0., 1.]])}
-    Y_target = class_dog_fish[expectedClass]
+    class_A_B = {
+        "dog_and_fish": {"dog":np.array([[1., 0.]]), "fish":np.array([[0., 1.]])},
+        "dog_and_cat": {"dog":np.array([[1., 0.]]), "cat":np.array([[0., 1.]])},
+        "cat_and_mouse": {"cat":np.array([[1., 0.]]), "mouse":np.array([[0., 1.]])}
+    }
+    
+    Y_target = class_A_B[class_identifier][expectedClass]
     target_corr_pred = sess.run(correct_prediction, feed_dict={X_Bottleneck:targetFeatRep, Y_true:Y_target})
 
     print('The image is classified correctly:',target_corr_pred)
