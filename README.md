@@ -202,13 +202,16 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/dog_and_cat_eval
 target sample
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/19922651/236391053-d7f59074-613f-4c92-93aa-421228a87f33.png">
 
-- duration of time : 
+- duration of time  : ~6h
 ```
+out of 100 poisons, 100 got correctly classified!
+out of 100 targets, 100 got misclassified!
 ```
 https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sharing
 
 	
-
+- detailed result
+https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 
 
 
