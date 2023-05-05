@@ -1,0 +1,905 @@
+done loading data!
+(100,)
+******************0********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01920873 0.98079133]]
+The poison is now classified correctly: [ True] class probs: [[0.00405306 0.99594694]]
+Dist in feat space: 2.9012778
+******************1********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.25252524
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00234576 0.99765426]]
+The poison is now classified correctly: [ True] class probs: [[0.00115143 0.99884856]]
+Dist in feat space: 3.149686
+******************2********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00406456 0.99593544]]
+The poison is now classified correctly: [ True] class probs: [[0.00137911 0.99862087]]
+Dist in feat space: 2.9248607
+******************3********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.37373737
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.0451123 0.9548877]]
+The poison is now classified correctly: [ True] class probs: [[0.00417848 0.9958215 ]]
+Dist in feat space: 2.8767846
+******************4********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.67171717
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[3.0153833e-04 9.9969852e-01]]
+The poison is now classified correctly: [ True] class probs: [[2.7395846e-04 9.9972600e-01]]
+Dist in feat space: 3.3818438
+******************5********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5252525
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00132402 0.998676  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00108729 0.9989127 ]]
+Dist in feat space: 2.930482
+******************6********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.540404
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00110935 0.9988907 ]]
+The poison is now classified correctly: [ True] class probs: [[9.3782257e-04 9.9906224e-01]]
+Dist in feat space: 2.9056482
+******************7********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.24242425
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01333701 0.98666304]]
+The poison is now classified correctly: [ True] class probs: [[0.00444452 0.99555546]]
+Dist in feat space: 2.8851776
+******************8********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.55050504
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.2939904 0.7060096]]
+The poison is now classified correctly: [ True] class probs: [[0.00568061 0.9943193 ]]
+Dist in feat space: 3.5957272
+******************9********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4848485
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.0014168 0.9985832]]
+The poison is now classified correctly: [ True] class probs: [[9.0434816e-04 9.9909568e-01]]
+Dist in feat space: 2.9338086
+******************10********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.28282827
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01127226 0.9887277 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00306289 0.99693716]]
+Dist in feat space: 2.9048705
+******************11********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.540404
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.17102878 0.82897127]]
+The poison is now classified correctly: [ True] class probs: [[0.01174784 0.9882521 ]]
+Dist in feat space: 2.8767908
+******************12********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.21717171
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[7.3287793e-04 9.9926716e-01]]
+The poison is now classified correctly: [ True] class probs: [[3.9860694e-04 9.9960142e-01]]
+Dist in feat space: 2.9114063
+******************13********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6515151
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00373756 0.9962624 ]]
+The poison is now classified correctly: [ True] class probs: [[0.0025175 0.9974825]]
+Dist in feat space: 2.8045824
+******************14********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.66161615
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.01584854 0.9841515 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00588497 0.994115  ]]
+Dist in feat space: 2.8426502
+******************15********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.16215982 0.8378402 ]]
+The poison is now classified correctly: [ True] class probs: [[8.0460176e-04 9.9919540e-01]]
+Dist in feat space: 2.8442793
+******************16********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.37878788
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.00842957 0.99157035]]
+The poison is now classified correctly: [ True] class probs: [[0.00350277 0.9964972 ]]
+Dist in feat space: 2.8671374
+******************17********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.41414142
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00107772 0.99892235]]
+The poison is now classified correctly: [ True] class probs: [[0.00125369 0.9987463 ]]
+Dist in feat space: 3.063129
+******************18********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.42424244
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.003085 0.996915]]
+The poison is now classified correctly: [ True] class probs: [[0.00191237 0.9980876 ]]
+Dist in feat space: 2.8410094
+******************19********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6515151
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.00891318 0.9910868 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00301637 0.9969836 ]]
+Dist in feat space: 2.83556
+******************20********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.479798
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.0242747 0.9757253]]
+The poison is now classified correctly: [ True] class probs: [[0.0048349 0.9951651]]
+Dist in feat space: 2.8218865
+******************21********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.7222222
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00112289 0.9988771 ]]
+The poison is now classified correctly: [ True] class probs: [[0.0011666  0.99883336]]
+Dist in feat space: 2.86809
+******************22********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5252525
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[6.6712464e-04 9.9933285e-01]]
+The poison is now classified correctly: [ True] class probs: [[0.00147302 0.99852693]]
+Dist in feat space: 2.958318
+******************23********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.56060606
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.0034948  0.99650526]]
+The poison is now classified correctly: [ True] class probs: [[0.00370375 0.9962962 ]]
+Dist in feat space: 2.8665035
+******************24********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.3939394
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00759191 0.99240804]]
+The poison is now classified correctly: [ True] class probs: [[0.0029228 0.9970772]]
+Dist in feat space: 2.960908
+******************25********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.2777778
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.00660698 0.993393  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00532863 0.9946714 ]]
+Dist in feat space: 3.683469
+******************26********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.37878788
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.0016837 0.9983163]]
+The poison is now classified correctly: [ True] class probs: [[0.00197614 0.99802387]]
+Dist in feat space: 2.9254344
+******************27********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.57575756
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.04280265 0.95719737]]
+The poison is now classified correctly: [ True] class probs: [[0.00422744 0.99577254]]
+Dist in feat space: 3.5172207
+******************28********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.45454547
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00207658 0.9979234 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00184777 0.9981522 ]]
+Dist in feat space: 2.7799215
+******************29********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5151515
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.05364881 0.9463512 ]]
+The poison is now classified correctly: [ True] class probs: [[0.0132554 0.9867446]]
+Dist in feat space: 2.8905096
+******************30********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6262626
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.00883611 0.99116397]]
+The poison is now classified correctly: [ True] class probs: [[0.00313384 0.99686617]]
+Dist in feat space: 2.7940383
+******************31********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.41414142
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.05482363 0.9451764 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00613769 0.9938623 ]]
+Dist in feat space: 3.1685245
+******************32********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.35353535
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01943385 0.98056614]]
+The poison is now classified correctly: [ True] class probs: [[0.00272399 0.997276  ]]
+Dist in feat space: 2.8137295
+******************33********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00400674 0.99599326]]
+The poison is now classified correctly: [ True] class probs: [[0.00231952 0.9976804 ]]
+Dist in feat space: 2.8827772
+******************34********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.53535354
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00507287 0.99492717]]
+The poison is now classified correctly: [ True] class probs: [[0.00369886 0.9963012 ]]
+Dist in feat space: 3.3633175
+******************35********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.45959595
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[3.1809960e-04 9.9968195e-01]]
+The poison is now classified correctly: [ True] class probs: [[6.803763e-04 9.993197e-01]]
+Dist in feat space: 3.5126517
+******************36********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.64141417
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[6.0256163e-04 9.9939740e-01]]
+The poison is now classified correctly: [ True] class probs: [[0.00126185 0.9987381 ]]
+Dist in feat space: 2.9295597
+******************37********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00254779 0.9974522 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00217684 0.99782324]]
+Dist in feat space: 2.9682987
+******************38********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.3939394
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01042275 0.9895773 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00345727 0.99654275]]
+Dist in feat space: 2.7334692
+******************39********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.43434343
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.04070714 0.9592928 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00311522 0.99688476]]
+Dist in feat space: 2.8665867
+******************40********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.55050504
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.00146328 0.9985367 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00112266 0.99887735]]
+Dist in feat space: 3.1775632
+******************41********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.0026352 0.9973648]]
+The poison is now classified correctly: [ True] class probs: [[0.00312773 0.99687225]]
+Dist in feat space: 2.9249418
+******************42********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.53535354
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.01295888 0.9870411 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00582795 0.99417204]]
+Dist in feat space: 2.837148
+******************43********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.510101
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.0425087 0.9574913]]
+The poison is now classified correctly: [ True] class probs: [[0.00981606 0.990184  ]]
+Dist in feat space: 3.5615773
+******************44********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.32828283
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00314385 0.9968561 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00132723 0.99867284]]
+Dist in feat space: 2.9260914
+******************45********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[8.6201006e-04 9.9913800e-01]]
+The poison is now classified correctly: [ True] class probs: [[9.5513387e-04 9.9904484e-01]]
+Dist in feat space: 2.9081998
+******************46********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.01055776 0.9894422 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00542653 0.99457353]]
+Dist in feat space: 2.7999923
+******************47********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.2139807  0.78601927]]
+The poison is now classified correctly: [ True] class probs: [[0.00747507 0.9925249 ]]
+Dist in feat space: 2.9662545
+******************48********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.46464646
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00339494 0.99660504]]
+The poison is now classified correctly: [ True] class probs: [[0.00310524 0.9968947 ]]
+Dist in feat space: 2.8647523
+******************49********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[9.4761129e-04 9.9905235e-01]]
+The poison is now classified correctly: [ True] class probs: [[0.00150008 0.9985    ]]
+Dist in feat space: 2.953267
+******************50********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.32828283
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[3.8792187e-04 9.9961215e-01]]
+The poison is now classified correctly: [ True] class probs: [[3.2539116e-04 9.9967468e-01]]
+Dist in feat space: 3.5990667
+******************51********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.01130539 0.9886946 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00388814 0.9961119 ]]
+Dist in feat space: 3.260123
+******************52********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6515151
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[8.7805622e-04 9.9912196e-01]]
+The poison is now classified correctly: [ True] class probs: [[8.6830196e-04 9.9913174e-01]]
+Dist in feat space: 2.8981664
+******************53********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.01250559 0.9874944 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00821671 0.99178326]]
+Dist in feat space: 2.8518956
+******************54********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.61616164
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00283264 0.9971674 ]]
+The poison is now classified correctly: [ True] class probs: [[7.8724913e-04 9.9921274e-01]]
+Dist in feat space: 2.8559673
+******************55********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.54545456
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.46963036 0.53036964]]
+The poison is now classified correctly: [ True] class probs: [[0.00826057 0.9917394 ]]
+Dist in feat space: 2.922931
+******************56********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.43434343
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[3.1946783e-04 9.9968052e-01]]
+The poison is now classified correctly: [ True] class probs: [[3.555320e-04 9.996445e-01]]
+Dist in feat space: 3.3396335
+******************57********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00353955 0.9964605 ]]
+The poison is now classified correctly: [ True] class probs: [[6.8351376e-04 9.9931645e-01]]
+Dist in feat space: 2.9348953
+******************58********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6060606
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00999658 0.9900034 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00409666 0.9959033 ]]
+Dist in feat space: 2.8848748
+******************59********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5151515
+Final test accuracy = 97.0%
+The target is now classified correctly: [False] class probs: [[0.00413953 0.9958605 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00479334 0.99520665]]
+Dist in feat space: 2.9347546
+******************60********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00426325 0.9957367 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00192284 0.99807715]]
+Dist in feat space: 2.9018037
+******************61********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.00230498 0.997695  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00101321 0.9989868 ]]
+Dist in feat space: 2.8915691
+******************62********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5808081
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[2.4439307e-04 9.9975556e-01]]
+The poison is now classified correctly: [ True] class probs: [[2.1647924e-04 9.9978358e-01]]
+Dist in feat space: 2.906501
+******************63********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.28787878
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00287437 0.9971257 ]]
+The poison is now classified correctly: [ True] class probs: [[9.8208000e-04 9.9901795e-01]]
+Dist in feat space: 2.9024472
+******************64********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.510101
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.14185046 0.8581495 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00667166 0.99332833]]
+Dist in feat space: 3.3689196
+******************65********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.6363636
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00778213 0.9922179 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00458884 0.9954112 ]]
+Dist in feat space: 2.8489647
+******************66********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.74747473
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00543908 0.9945609 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00257757 0.99742246]]
+Dist in feat space: 2.8481283
+******************67********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4848485
+Final test accuracy = 99.5%
+The target is now classified correctly: [False] class probs: [[0.03158749 0.9684125 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00650693 0.993493  ]]
+Dist in feat space: 3.4822674
+******************68********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.52020204
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.03613439 0.9638656 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00353522 0.9964647 ]]
+Dist in feat space: 3.60738
+******************69********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5050505
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00145039 0.99854964]]
+The poison is now classified correctly: [ True] class probs: [[0.00115243 0.9988476 ]]
+Dist in feat space: 2.8783002
+******************70********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.42929292
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.04220068 0.9577994 ]]
+The poison is now classified correctly: [ True] class probs: [[0.01109899 0.988901  ]]
+Dist in feat space: 3.1620517
+******************71********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5808081
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00722242 0.9927776 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00332623 0.9966737 ]]
+Dist in feat space: 2.9083304
+******************72********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.55050504
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00615202 0.993848  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00284797 0.997152  ]]
+Dist in feat space: 3.3936634
+******************73********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.48989898
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.01050446 0.9894956 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00163639 0.99836355]]
+Dist in feat space: 3.6068475
+******************74********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4848485
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00132419 0.99867576]]
+The poison is now classified correctly: [ True] class probs: [[0.001329   0.99867105]]
+Dist in feat space: 2.8744566
+******************75********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5959596
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[3.8499481e-04 9.9961495e-01]]
+The poison is now classified correctly: [ True] class probs: [[8.846754e-04 9.991153e-01]]
+Dist in feat space: 3.520604
+******************76********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.56060606
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[1.8412415e-04 9.9981588e-01]]
+The poison is now classified correctly: [ True] class probs: [[3.2553202e-04 9.9967444e-01]]
+Dist in feat space: 2.9446523
+******************77********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.35858586
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00696644 0.9930335 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00383674 0.99616325]]
+Dist in feat space: 2.8668492
+******************78********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.510101
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.00691484 0.99308515]]
+The poison is now classified correctly: [ True] class probs: [[0.00238112 0.99761885]]
+Dist in feat space: 2.7384675
+******************79********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5808081
+Final test accuracy = 96.5%
+The target is now classified correctly: [False] class probs: [[0.00199244 0.9980076 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00260435 0.99739563]]
+Dist in feat space: 2.8303306
+******************80********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5050505
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.03405084 0.9659492 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00396827 0.9960317 ]]
+Dist in feat space: 3.2247522
+******************81********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4949495
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.01760254 0.98239744]]
+The poison is now classified correctly: [ True] class probs: [[0.00504579 0.99495417]]
+Dist in feat space: 2.857048
+******************82********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.47474748
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00793876 0.99206126]]
+The poison is now classified correctly: [ True] class probs: [[0.00423653 0.9957634 ]]
+Dist in feat space: 2.8894444
+******************83********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.52020204
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.02437059 0.9756294 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00329662 0.99670345]]
+Dist in feat space: 2.8567355
+******************84********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.43939394
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.2094995 0.7905005]]
+The poison is now classified correctly: [ True] class probs: [[0.0080691 0.9919309]]
+Dist in feat space: 2.8532126
+******************85********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5959596
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00743205 0.992568  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00168072 0.9983192 ]]
+Dist in feat space: 3.4862413
+******************86********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.63131315
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.04870648 0.9512935 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00476914 0.99523085]]
+Dist in feat space: 3.290518
+******************87********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4848485
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00151623 0.99848384]]
+The poison is now classified correctly: [ True] class probs: [[0.00220174 0.9977983 ]]
+Dist in feat space: 2.905877
+******************88********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.45959595
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00258767 0.9974124 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00295589 0.99704415]]
+Dist in feat space: 2.888621
+******************89********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.28282827
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00101834 0.99898165]]
+The poison is now classified correctly: [ True] class probs: [[9.1512228e-04 9.9908483e-01]]
+Dist in feat space: 2.94109
+******************90********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.4848485
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.02469294 0.97530705]]
+The poison is now classified correctly: [ True] class probs: [[0.00934282 0.9906572 ]]
+Dist in feat space: 3.5615373
+******************91********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.2929293
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[2.9749775e-04 9.9970251e-01]]
+The poison is now classified correctly: [ True] class probs: [[5.440706e-04 9.994560e-01]]
+Dist in feat space: 3.563555
+******************92********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.15151516
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00944986 0.99055016]]
+The poison is now classified correctly: [ True] class probs: [[0.00256906 0.997431  ]]
+Dist in feat space: 2.938141
+******************93********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.66161615
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.07186895 0.92813104]]
+The poison is now classified correctly: [ True] class probs: [[0.00490978 0.99509025]]
+Dist in feat space: 3.4352198
+******************94********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.7121212
+Final test accuracy = 98.0%
+The target is now classified correctly: [False] class probs: [[0.00289759 0.99710244]]
+The poison is now classified correctly: [ True] class probs: [[0.00287647 0.99712354]]
+Dist in feat space: 2.8996496
+******************95********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5050505
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.01405932 0.9859407 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00244215 0.9975579 ]]
+Dist in feat space: 3.511251
+******************96********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.56060606
+Final test accuracy = 99.0%
+The target is now classified correctly: [False] class probs: [[0.00105506 0.99894494]]
+The poison is now classified correctly: [ True] class probs: [[0.00274748 0.9972525 ]]
+Dist in feat space: 3.2719562
+******************97********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.510101
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00123436 0.9987657 ]]
+The poison is now classified correctly: [ True] class probs: [[0.00180065 0.99819934]]
+Dist in feat space: 2.861261
+******************98********************
+Y_target is: [[1. 0.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.5050505
+Final test accuracy = 98.5%
+The target is now classified correctly: [False] class probs: [[0.00213101 0.997869  ]]
+The poison is now classified correctly: [ True] class probs: [[0.00162549 0.99837446]]
+Dist in feat space: 2.9266567
+******************99********************
+Y_target is: [[0. 1.]]
+********>>>>>> 0.32828283
+cold start
+********>>>>>> 0.23737374
+Final test accuracy = 97.5%
+The target is now classified correctly: [False] class probs: [[0.99174666 0.00825332]]
+The poison is now classified correctly: [ True] class probs: [[0.9969086 0.0030914]]
+Dist in feat space: 2.8627095
+##############################
+out of 100 poisons, 100 got correctly classified!
+out of 100 targets, 100 got misclassified!
