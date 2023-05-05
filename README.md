@@ -176,6 +176,24 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 - machine learning model : inceptionv3 (2015)
 - the number of poisoned image generated : 100
 
+## summary
+```
+/bin/python3 /home/parallels/ML_POINSON_ATTACK_LAB/parse_eval_result.py
+
+======= dog_and_cat_eval =======
+# Final test accuracy
+before poisoned :  97.0
+after poisoned :  96.28999999999988
+avg poison classified accuracy :  0.9768275262000004
+avg target misclassified accuracy :  0.9732625192849003
+======= mouse_and_cat_eval =======
+# Final test accuracy
+before poisoned :  99.0
+after poisoned :  98.21
+avg poison classified accuracy :  0.9867806270000002
+avg target misclassified accuracy :  0.9634084135
+```
+
 
 ## 1) dog and cat
 - base image : cat
