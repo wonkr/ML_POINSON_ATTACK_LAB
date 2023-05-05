@@ -151,6 +151,8 @@ def get_feat_reps(X,class_t):
         res.append(sess.run(feat_tensor, feed_dict={input_tensor:x}))
         if i % 50 == 0:
             print('finished %d\'th example of %s'%(i,class_t))
+        if i >= 500:
+            break
     res = np.array(res)
 
     #rest graph and close session to free memory
