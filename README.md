@@ -9,7 +9,7 @@
 
 ### (Option 1) Download pre-processed data ( `target` and `base` )
 - dog and fish : https://drive.google.com/file/d/1VUPwV-w-gN9YCOeNjPHvdGUsX9YF-7d-/view?usp=sharing
-- mouse and cat : https://drive.google.com/file/d/1k4Vn7RIasNT_qcpXGH18om-1iNG_oysa/view?usp=sharing
+- <s>mouse and cat : https://drive.google.com/file/d/1k4Vn7RIasNT_qcpXGH18om-1iNG_oysa/view?usp=sharing</s> : accuracy low - futher investigation needed.
 - dog and cat : https://drive.google.com/file/d/1raqv8F9-4IitiwL169t6z3aw0FwUBSkT/view?usp=share_link
 
 Untar pre-processed data
