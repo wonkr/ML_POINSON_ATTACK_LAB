@@ -2,7 +2,7 @@
 
 ## Prepare Data 
 
-### Download pre-processed data ( `target` and `base` )
+### (Option 1) Download pre-processed data ( `target` and `base` )
 - dog and fish : https://drive.google.com/file/d/1VUPwV-w-gN9YCOeNjPHvdGUsX9YF-7d-/view?usp=sharing
 - cat and mouse : https://drive.google.com/file/d/1k4Vn7RIasNT_qcpXGH18om-1iNG_oysa/view?usp=sharing
 - dog and cat : https://drive.google.com/file/d/1raqv8F9-4IitiwL169t6z3aw0FwUBSkT/view?usp=share_link
@@ -16,7 +16,7 @@ $ cd image_mlserver/simple_ml_server/server/poison_attack/Test_Data
 $ tar -zxvf XY.tar.gz
 ```
 
-### Download raw data
+### (Option 2) Download raw data
 You can use another classes by using rawImages of them instead of using the pre-processed data
 
 - lookup imagenet id
@@ -38,6 +38,15 @@ $ tar -xvf fish.tar
 ```
 
 ## Specify what image classes to use.
+The following example uses `dog_and_cat`. 
+### set base_image.jpeg to cat and set target_image.jpeg to dog.
+```bash
+$ cd ML_POINSON_ATTACK_LAB/image_attacker/Attacker/baseImage
+$ cp base_image_cat.jpeg base_image.jpeg
+
+$ cd ~/ML_POINSON_ATTACK_LAB/image_attacker/Attacker/targetImage/
+$ cp target_image_dog.jpeg target_image.jpeg
+```
 
 ### image_mlserver/simple_ml_server/server/general.py
 1) 
