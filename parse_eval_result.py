@@ -44,14 +44,17 @@ def get_avg_poison_classified_accuracy(filename):
 
 get_avg_poison_classified_accuracy("dog_and_cat_eval")
 eval_list = ["dog_and_cat_eval",
-             "mouse_and_cat_eval"]
+             "mouse_and_cat_eval",
+             "dog_and_mouse_eval"]
 
 # refer from colab execution result
 # https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH#scrollTo=NcYG2H4ceXJP 
 # https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f#scrollTo=mm4-TofGACaJ
+# https://colab.research.google.com/drive/1tQLNCcVdFs1laOTigg-gW2NzsBWiLm8z#scrollTo=iCE7X6hZ68XM
 final_test_accuracy_before_poisoned = {
     "dog_and_cat_eval": 97.0,
-    "mouse_and_cat_eval": 99.0
+    "mouse_and_cat_eval": 99.0,
+    "dog_and_mouse_eval": 99.5
 }
 for eval in eval_list:
     print("=======",eval,"=======")
