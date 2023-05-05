@@ -502,7 +502,7 @@ def test(sess, targetInpImage, expectedClass, class_identifier="dog_and_fish"):
     class_A_B = {
         "dog_and_fish": {"dog":np.array([[1., 0.]]), "fish":np.array([[0., 1.]])},
         "dog_and_cat": {"dog":np.array([[1., 0.]]), "cat":np.array([[0., 1.]])},
-        "cat_and_mouse": {"cat":np.array([[1., 0.]]), "mouse":np.array([[0., 1.]])}
+        "mouse_and_cat": {"cat":np.array([[1., 0.]]), "mouse":np.array([[0., 1.]])}
     }
     
     Y_target = class_A_B[class_identifier][expectedClass]
