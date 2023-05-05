@@ -192,6 +192,13 @@ before poisoned :  99.0
 after poisoned :  98.21
 avg poison classified accuracy :  0.9867806270000002
 avg target misclassified accuracy :  0.9634084135
+======= dog_and_mouse_eval =======
+# Final test accuracy
+before poisoned :  99.5
+after poisoned :  99.04
+avg poison classified accuracy :  0.9781913498459999
+avg target misclassified accuracy :  0.9542935317161799
+
 ```
 
 
