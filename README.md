@@ -218,6 +218,10 @@ https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sh
 - detailed result
 https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 
+## 3) dog and mouse
+- base image : mouse
+- target image : dog
+
 
 
 
