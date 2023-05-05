@@ -156,5 +156,21 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 <img width="312" alt="image" src="https://user-images.githubusercontent.com/19922651/236377648-b5776143-486c-4112-a7d0-435c721185f4.png">
 
 
-- 
+# Reference
+https://github.com/ashafahi/inceptionv3-transferLearn-poison
+@ARTICLE{2018arXiv180400792S,
+   author = {{Shafahi}, A. and {Ronny Huang}, W. and {Najibi}, M. and {Suciu}, O. and 
+	{Studer}, C. and {Dumitras}, T. and {Goldstein}, T.},
+    title = "{Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1804.00792},
+ primaryClass = "cs.LG",
+ keywords = {Computer Science - Learning, Computer Science - Cryptography and Security, Computer Science - Computer Vision and Pattern Recognition, Statistics - Machine Learning},
+     year = 2018,
+    month = apr,
+   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180400792S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 
