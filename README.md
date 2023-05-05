@@ -212,6 +212,7 @@ target sample
 out of 100 poisons, 100 got correctly classified!
 out of 100 targets, 100 got misclassified!
 ```
+- colab link
 https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sharing
 
 	
@@ -220,9 +221,12 @@ https://github.com/wonkr/ML_POINSON_ATTACK_LAB/blob/main/mouse_and_cat_eval
 
 ## 3) dog and mouse
 - base image : mouse
+<img width="489" alt="image" src="https://user-images.githubusercontent.com/19922651/236456244-bfb5f441-f655-4611-9093-945e308fd832.png">
+
 - target image : dog
 
-
+- colab link
+https://colab.research.google.com/drive/1tQLNCcVdFs1laOTigg-gW2NzsBWiLm8z?usp=sharing
 
 
 # Reference
