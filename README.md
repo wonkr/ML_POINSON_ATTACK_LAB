@@ -165,6 +165,38 @@ Once you upload the image, it will be crawled and used for train_data in the ML_
 <img width="312" alt="image" src="https://user-images.githubusercontent.com/19922651/236377648-b5776143-486c-4112-a7d0-435c721185f4.png">
 
 
+# Evaluation on different image other than (dog_and_fish)
+
+- image data : imageNet (500 of images from each classes)
+- machine learning model : inceptionv3 (2015)
+- the number of poisoned image generated : 100
+
+
+## 1) dog and cat
+- base image : cat
+- target image : dog
+- duration of time when generating poisoned images : ~2hours
+	- depends on which base_image being used.
+```
+out of 100 poisons, 100 got correctly classified!
+out of 100 targets, 100 got misclassified!
+```
+https://colab.research.google.com/drive/1xCFJ86tA8lo7_vThehxUmaT_Y4KisiIH?usp=sharing
+
+## 2) cat and mouse
+- base image : mouse
+- target image : dog
+- duration of time : 
+```
+```
+https://colab.research.google.com/drive/10wnT0R-fNmGC_P0AB6ozKFtnPcJFtz4f?usp=sharing
+
+	
+
+
+
+
+
 # Reference
 https://github.com/ashafahi/inceptionv3-transferLearn-poison
 ```latex
